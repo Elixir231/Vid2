@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VidPlayer"
+    android:orientation="vertical"
+    android:background="@color/exo_edit_mode_background_color">
+
+    <com.google.android.exoplayer2.ui.SimpleExoPlayerView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/exo_player_view">
+
+    </com.google.android.exoplayer2.ui.SimpleExoPlayerView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rotate"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+        android:textColor="@color/exo_edit_mode_background_color"
+        android:textStyle="bold"
+        android:id="@+id/rotate"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="50dp"/>
+
+</LinearLayout>
